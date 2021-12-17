@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from '../components/Navbar.js'
 
 let aboutFlashcard = () => {
   return (
