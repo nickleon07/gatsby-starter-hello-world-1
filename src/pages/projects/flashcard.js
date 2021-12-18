@@ -1,12 +1,11 @@
 import React from 'react';
-import Nav from '../components/Navbar.js'
+import Layout from '../components/Layout.js'
 
 let aboutFlashcard = () => {
   return (
-    <>
-    <Nav />
+    <Layout>
     <div> This is where I would link some information about my flashcard project</div>
-    </>
+    </Layout>
   );
 }
 

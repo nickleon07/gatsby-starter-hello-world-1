@@ -1,11 +1,10 @@
 import React from "react"
-import Nav from "./components/Navbar.js"
+import Layout from "./components/Layout.js"
 
 export default function Home() {
   return (
-  <div>
-  <Nav />
+  <Layout>
   <div>Hello world!</div>
-  </div>
+  </Layout>
   );
 };
