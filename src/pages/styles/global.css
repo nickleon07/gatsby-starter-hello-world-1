@@ -1,8 +1,8 @@
 body {
   background-color: black;
   background-image: radial-gradient(
-    at 60% bottom,
-    rgba(3, 121, 3, 0.5),
+    at 60% 60%,
+    rgba(2, 80, 2, 0.5),
     rgb(0, 7, 2) 55%
   );
   height: 100vh;
@@ -198,7 +198,7 @@ html::before {
   pointer-events: none;
 }
 html {
-  animation: textShadow 5s infinite;
+  animation: textShadow 1.5s infinite;
 }
 a {
   text-decoration: none;
